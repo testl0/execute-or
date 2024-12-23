@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": {
+      "fallback": "Minecraft 1.21.4",
+      "translate": "data.execute_or.61",
+      "type": "translatable"
+    },
+    "pack_format": 61,
+    "supported_formats": {
+      "max_inclusive": 61,
+      "min_inclusive": 61
+    }
+  }
+}
