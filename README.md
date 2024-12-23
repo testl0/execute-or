@@ -16,7 +16,7 @@ function execute_or:execute_or {command: "say Hello, world!", conditions: ["if p
 To include straight double quotes (`"`) in the `command` macro, escape them using `\\\"`.
 
 ```coffee
-function execute_or:execute_or {command: "tellraw @s {\\\"translate\\\": \\\"translation.test.none\\\"}", conditions: ["if entity @s"]}
+function execute_or:execute_or {command: "tellraw @s {\\\"translate\\\": \\\"translation.test.none\\\"}", conditions: ["if data entity @s SelectedItem{id: \"minecraft:grass_block\"}"]}
 ```
 
 ## Supported Minecraft Versions
