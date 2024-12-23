@@ -1,3 +1,5 @@
+# execute OR is marked with the Creative Commons CC0 1.0 Universal License.
+
 $data modify storage execute_or:temporary_data macro.command set value "$(command)"
 $data modify storage execute_or:temporary_data macro.conditions set value $(conditions)
 scoreboard objectives add objective.execute_or.condition_count dummy {"fallback": "Condition Count", "translate": "objective.execute_or.condition_count", "type": "translatable"}

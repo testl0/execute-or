@@ -29,4 +29,4 @@ For other versions, compatibility cannot be guaranteed.
 
 ## License
 
-The data pack is licensed under the Creative Commons CC0 1.0 Universal License. For more information, see [LICENSE](/LICENSE).
+The data pack is marked with the Creative Commons CC0 1.0 Universal License. For more information, see [LICENSE](/LICENSE).
