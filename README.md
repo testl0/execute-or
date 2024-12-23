@@ -1,6 +1,6 @@
 # execute OR
 
-execute OR is a data pack that enables you to use `execute if` and `execute unless` commands as OR operations.
+execute OR is a data pack for Minecraft that enables you to use `execute if` and `execute unless` commands as OR operations.
 
 ## How to Use
 
