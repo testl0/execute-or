@@ -10,7 +10,7 @@ To use OR operations, execute the command `function execute_or:execute_or`, and 
 function execute_or:execute_or {command: "say Hello, world!", conditions: ["if predicate example:00", "unless predicate example:01"]}
 ```
 
-- `conditions`: A list of conditions for the OR operation, supporting up to 4095 conditions.
+- `conditions`: A list of conditions for the OR operation, supporting up to `gamerule.maxCommandChainLength / 16` entries.
 - `command`: The command to be executed if any of the conditions are met.
 
 To include straight double quotes (`"`) in the `command` macro, escape them using `\\\"`.
